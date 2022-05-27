@@ -10,17 +10,9 @@
   padding: 16px;
   display: -ms-grid;
   display: grid;
-  grid-gap: 2px;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   width: 100%;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-  }
 }
 
 .col {
